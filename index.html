@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Taehun's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+               
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Intro-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Taehun Jung</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">FULL-STACK DEV</p>
+            <img src="imgs/prof-img.JPG" alt="profile photo" class="intro__img">
+        </section>
+
+        <!--My services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>I've always been passionate about finding discomforts in life so as a software engineer we can solve that issues for everyone. 
+                    One of the things that I recently came across as discomfort is not being provided with enough info about course evaluations at the university I'm studying. 
+                    So while I was in 21 days travel quarantine, I designed and developed a website where students can share their course evaluations. 
+                    I am yet to receive feedbacks from students since classes haven't started yet but I am optimistic about the website. 
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Product Management</h3>
+                    <p>
+                    On top of being a front-end developer, I am confident that I can lead a team and come up with a product that can satisfy my clients' needs. 
+                    This summer, after getting discharged from the army, I was given an opportunity to form a team and start working on an app that is based on 
+                    photography and music. Although it's yet to be finished, I am optimistic about how this product will turn out when it's done. 
+                    </p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Designer & developer based out of Montréal</p>
+
+            <div class="about-me__body">
+                <p>I am a U3 computer science student at McGill University. I have served in the Korean Army from September 2019 to April 2021. 
+                I can say with pride & confidence that my service in the military help me develop perseverance, which I lacked in prior to my service. 
+                With my experience in the army, I think I am ready to dive into a project in developing mobile apps and websites depending on the clients' needs.  
+                </p>
+                <p>
+                It's true that it hasn't been too long since I got into front-end development, but I am confident that I can pick up any programming language quickly. 
+                An example that showcases that is my website called "RatemyCourses". It's a website I've worked on for the first time in html, php and css while I was in 21 days of quarantine. 
+                I was able to work on the front & back-end all by myself through learning everything from YouTube and Google.  
+                </p>
+            </div>
+
+            <img src="imgs/profile.jpeg" alt="profile photo 2" class="about-me__img">
+        </section>
+
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">Mobile App Front-End & Full-Stack Web Dev</p>
+
+            <div class="portfolio">
+    
+                <a href="https://ratemycourses.000webhostapp.com/" class="portfolio__item">
+                    <img src="imgs/RateMyCoursesWebsite.png" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/CovidTrackerWeb.png" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/MomentsApp.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="imgs/DeliveryAppUI.jpg" alt="" class="portfolio__img">
+                </a>
+    
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <a href="mailto:taehunjung2017@gmail.com" class="footer-link">taehunjung2017@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/taehunjung"> 
+                        <i class="fab fa-github"></i> 
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/robert-taehun-jung-80753415b">
+                         <i class="fab fa-linkedin"></i> 
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
